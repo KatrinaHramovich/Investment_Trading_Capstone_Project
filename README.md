@@ -32,7 +32,9 @@ statsmodels
 
 
 ## Files Descriptions:
+
 1 investment_trading_capstone_project.ipynb jupyter file of the project with all visualisations, explanaitions and details
+
 2 Capstone data.csv sample dataset with stock prices data and calculated parameters
 
 
