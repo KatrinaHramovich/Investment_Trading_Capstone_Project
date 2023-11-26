@@ -41,6 +41,8 @@ statsmodels
 ## Summary of the results of the analysis:
 I tried to forecast stock prices. For that I used different Machine Learning models. Classification models seem to deliver very resilts with high predictive power of up to 70% on if a stock price is going to grow or fall the next days. Model that delivered the best results was Random Forest Classifier. I got really great results using trading parameters (MACD and Signal, Rolling mean and standard deviation, RSI and Williams %R), that already according to their visualisation looked promising to predict price movements. Also, just taking laged values of returnes doest make the predictions better. It also goes hand in hand with the fact that KNeighborsRegressor, Linear Regression, Ridge Regression models didnt work for predictions.
 
+My medium arcticle to this project you can find here: https://medium.com/@katrina.hramovich/-d0f21a502a35.
+
 
 
 
