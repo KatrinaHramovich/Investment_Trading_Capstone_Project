@@ -43,7 +43,7 @@ I tried to forecast stock prices. For that I used different Machine Learning mod
 
 ## Acknowledgments
 
-Many thanks to Udacity for giving me an opportunity to try out real world problems and referencing the Machine Learning for Trading course that gave me some insights into trading and also the help from the mentors. 
+Many thanks to Udacity for giving me an opportunity to try out real world problems and referencing the Machine Learning for Trading course: https://www.udacity.com/course/machine-learning-for-trading--ud501 that gave me some insights into trading.
 
 This project was completed as part of the Udacity Data Scientist Nanodegree program.
 
