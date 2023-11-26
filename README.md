@@ -43,16 +43,22 @@ I tried to forecast stock prices. For that I used different Machine Learning mod
 
 ## Difficulties that I accounted during my project.
 
-One of the difficulties I had is regarding the content. I had to do some research and found a lot of sources explaining how stock market works and how to calculate some trading parameter (including Machine Learning source for trading, suggested by Udacity, that was interesting and expanded my understanding of stock market https://www.udacity.com/course/machine-learning-for-trading--ud501), but I didn’t find any good source explaining which machine learning models are best to use for trading. I tried a lot of different models, but most of them gave bad accuracy results, I found a lot of tries but none of them demonstrated good performance or was explained why one works better than another. Even in books for machine learning I couldn’t find it. And the last thing that was difficult is to stop trying more and more new models using more and more datasets.
+One of the difficulties I had is regarding the content. I had to do some research and found a lot of sources explaining how stock market works and how to calculate some trading parameter (including Machine Learning source for trading, suggested by Udacity, that was interesting and expanded my understanding of stock market), but I didn’t find any good source explaining which machine learning models are best to use for trading. I tried a lot of different models, but most of them gave bad accuracy results, I found a lot of tries but none of them demonstrated good performance or was explained why one works better than another. Even in books for machine learning I couldn’t find it. And the last thing that was difficult is to stop trying more and more new models using more and more datasets.
 
 ## Acknowledgments
+
+My medium article to this project: https://medium.com/@katrina.hramovich/-d0f21a502a35.
 
 Many thanks to Udacity for giving me an opportunity to try out real world problems and referencing the Machine Learning for Trading course https://www.udacity.com/course/machine-learning-for-trading--ud501 that gave me some insights into trading.
 
 This project was completed as part of the Udacity Data Scientist Nanodegree program.
 
-My medium article to this project: https://medium.com/@katrina.hramovich/-d0f21a502a35.
+References:
+1)Popular Classification Models for Machine Learning: https://www.analyticsvidhya.com/blog/2020/11/popular-classification-models-for-machine-learning/ 
 
+2)Top 5 Machine Learning Practices Recommended by Experts: https://www.kdnuggets.com/2022/09/top-5-machine-learning-practices-recommended-experts.html
+
+3)Tips and tricks to tune hyperparameters in machine learning that help improve model accuracy: https://towardsdatascience.com/hyperparameter-tuning-in-python-21a76794a1f7 
 
 
 
