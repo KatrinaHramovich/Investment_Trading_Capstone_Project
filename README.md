@@ -47,7 +47,7 @@ Many thanks to Udacity for giving me an opportunity to try out real world proble
 
 This project was completed as part of the Udacity Data Scientist Nanodegree program.
 
-My medium arcticle to this project you can find here: https://medium.com/@katrina.hramovich/-d0f21a502a35.
+My medium article to this project: https://medium.com/@katrina.hramovich/-d0f21a502a35.
 
 
 
