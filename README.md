@@ -54,6 +54,7 @@ Many thanks to Udacity for giving me an opportunity to try out real world proble
 This project was completed as part of the Udacity Data Scientist Nanodegree program.
 
 References:
+
 1)Popular Classification Models for Machine Learning: https://www.analyticsvidhya.com/blog/2020/11/popular-classification-models-for-machine-learning/ 
 
 2)Top 5 Machine Learning Practices Recommended by Experts: https://www.kdnuggets.com/2022/09/top-5-machine-learning-practices-recommended-experts.html
