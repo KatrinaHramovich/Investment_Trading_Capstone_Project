@@ -41,6 +41,10 @@ statsmodels
 ## Summary of the results of the analysis:
 I tried to forecast stock prices. For that I used different Machine Learning models. Classification models seem to deliver very resilts with high predictive power of up to 70% on if a stock price is going to grow or fall the next days. Model that delivered the best results was Random Forest Classifier. I got really great results using trading parameters (MACD and Signal, Rolling mean and standard deviation, RSI and Williams %R), that already according to their visualisation looked promising to predict price movements. Also, just taking laged values of returnes doest make the predictions better. It also goes hand in hand with the fact that KNeighborsRegressor, Linear Regression, Ridge Regression models didnt work for predictions.
 
+## Difficulties that I accounted during my project.
+
+One of the difficulties I had is regarding the content. I had to do some research and found a lot of sources explaining how stock market works and how to calculate some trading parameter (including Machine Learning source for trading, suggested by Udacity, that was interesting and expanded my understanding of stock market https://www.udacity.com/course/machine-learning-for-trading--ud501), but I didn’t find any good source explaining which machine learning models are best to use for trading. I tried a lot of different models, but most of them gave bad accuracy results, I found a lot of tries but none of them demonstrated good performance or was explained why one works better than another. Even in books for machine learning I couldn’t find it. And the last thing that was difficult is to stop trying more and more new models using more and more datasets.
+
 ## Acknowledgments
 
 Many thanks to Udacity for giving me an opportunity to try out real world problems and referencing the Machine Learning for Trading course https://www.udacity.com/course/machine-learning-for-trading--ud501 that gave me some insights into trading.
