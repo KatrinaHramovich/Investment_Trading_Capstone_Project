@@ -41,6 +41,22 @@ statsmodels
 ## Summary of the results of the analysis:
 I tried to forecast stock prices. For that I used different Machine Learning models. Classification models seem to deliver very resilts with high predictive power of up to 70% on if a stock price is going to grow or fall the next days. Model that delivered the best results was Random Forest Classifier. I got really great results using trading parameters (MACD and Signal, Rolling mean and standard deviation, RSI and Williams %R), that already according to their visualisation looked promising to predict price movements. Also, just taking laged values of returnes doest make the predictions better. It also goes hand in hand with the fact that KNeighborsRegressor, Linear Regression, Ridge Regression models didnt work for predictions.
 
+![image](https://github.com/KatrinaHramovich/Investment_Trading_Capstone_Project/assets/71725731/5e987a05-5220-4b0c-b350-1d3d4e75348e)
+
+## SVC (Support Vector Classifier).
+First, I was calculating predictive power for random choice for Apple stock. We can see that less data doesn’t mean less predictive power in our case. Also, I would like to conclude th¬at the accuracy score is quite unstable and not much higher that 50% random choose so that I using this method to predict stock prices doesn’t have much value. 
+
+Second, I used the trading parameters ('MACD', 'Signal', 'Rolling mean Adj Close 20', 'Rolling std Adj Close 20', 'Low 14', 'High 14', 'Williams %R', 'RSI'). I calculated for Apple stock before as features and look if it makes my predictions better and look at the combination of both types of features, and the accuracy prediction had improved from 54.25% for random choice to 68.25 %  when we use above trading parameters. 
+Third, I also tried to add lag values to increase predictive power of classifier, but the accuracy of prediction power didn’t improve. It equals to 66.67 %, which is less than 68.25% for SVC.
+
+![image](https://github.com/KatrinaHramovich/Investment_Trading_Capstone_Project/assets/71725731/aa01ab15-27a1-426c-a8cd-72a0456e167e)
+
+## Random Forest Classifier.
+First, I used the trading parameters ('MACD', 'Signal', 'Rolling mean Adj Close 20', 'Rolling std Adj Close 20', 'Low 14', 'High 14', ¬'Williams %R', 'RSI'). I calculated for Apple stock before as features and look if it makes my predictions better and look at the combination of both types of features, and the accuracy prediction had improved from 68.25% for SVC.
+to 76.19% for Random Forest Classifier when we use above trading parameters. 
+
+Second, I also tried to add lag values to increase predictive power of classifier, but the accuracy of prediction power. It equals to 76.19% which is the same accuracy as Random Forest Classifier without adding lag values.
+
 ## Difficulties that I accounted during my project.
 
 One of the difficulties I had is regarding the content. I had to do some research and found a lot of sources explaining how stock market works and how to calculate some trading parameter (including Machine Learning source for trading, suggested by Udacity, that was interesting and expanded my understanding of stock market), but I didn’t find any good source explaining which machine learning models are best to use for trading. I tried a lot of different models, but most of them gave bad accuracy results, I found a lot of tries but none of them demonstrated good performance or was explained why one works better than another. Even in books for machine learning I couldn’t find it. And the last thing that was difficult is to stop trying more and more new models using more and more datasets.
